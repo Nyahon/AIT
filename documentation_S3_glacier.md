@@ -1,6 +1,10 @@
 # Documentation S3/Glacier
 
+**S3** est un service d'Amazon de cloud permettant de configurer des "buckets" où l'utilîsateurs va sauvegarder ses données. Ces buckets peuvent être définis selon plusieurs régions ayant un incident sur leur rapidité d'accès et leur tarif.
 
+**Glacier** est un service d'Amazon de cloud "permanent" ayant pour but de stocker des données pour de longues durées et rarement récupérées (par exemple 2ème / 3ème backup).
+
+**Dans notre cas** nous utiliserons S3 pour stocker les données puis après un certain temps les données seront automatiquement mise en Classe de stockage : Glacier.
 
 # Amazon Préparation
 
