@@ -1,6 +1,6 @@
-#AIT - présentation AWS glacier & Arq
+# AIT - présentation AWS glacier & Arq
 
-##AWS Glacier
+## AWS Glacier
 
 ### 1. concept
 
@@ -8,7 +8,7 @@ The data are stored in archive form and are contained in vaults. Vaults are acce
 
 ---
 
-###2. informations
+### 2. informations
 
 * *archives*
 
