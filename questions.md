@@ -1,0 +1,29 @@
+Dans le cadre d'une entreprise de 50 personnes :  
+- Prix ? 
+  - Application Arq : 50$ / post
+  - Storage (AWS):
+- Sécurité, confidentialité, fiabilité
+  - Les sauvegardes sont chiffrée du côté application par Arq avec une passphrase choisie par l'utilisateur.
+  - Les sauvegardes sont faites toutes les heures et peuvent être restaurée indépendamment.
+  - Amazon permet de choisir une destination de sauvegarde dans un datacenter spécifique, il est donc possible de configurer arq pour faire une sauvegarde vers plusieurs destinations géographiques et donc avoir plusieurs copies des fichiers.
+  - La fiabilité des sauvegardes restes propre à la fiabilité qu'offre Amazon. Pour son service AWS. Si celui-ci n'est plus disponnible les sauvegardes ne le sont plus également.
+- Facilité d'utilisation 
+  - Pour utilisateur
+    - Une fois le logiciel Arq installé et configuré, l'utilisateur n'a rien à faire pour assurer que la sauvegarde soit effectuées. 
+    - Le logiciel est relativement intuitif, il est donc facile pour un utilisateur de comprendre comment faire pour retrouver un fichier et le restaurer.
+  - Pour administrateur
+    - La mise en place des comptes et buckets AWS n'est pas très intuitive et il est relativement compliqué pour un administrateur de bien différencier et set up le système afin de séparer les backups de chaque utilisateur.
+    - La surveillance n'est pas évidente non plus.
+- Temps de backup, (création du backup, récupération)
+  - Le temps de backup est relatif à la bande passante d'ont on dispose, et de la quantité de donnée à sauvegarder.
+- Déploiement du logiciel (Administrateur)
+  - compliqué si gros téléchargement, disponible sur peu de source
+  - facilité d'installation
+    - L'installation du logiciel est relativement intuitive il est donc possible de faire une documentation simple et de demander à chaque employé de faire l'installation par lui même. 
+    - Au niveau de la configuration des comptes sur AWS cela peut prendre un peu de temps mais n'as besoin d'être fait qu'une fois pour chaque utilisateur. Une fois que compté créé et les clés d'authentification récupérées. Le logicile va faire le travail de création de l'espace de stockage d'ont il a besoin lui même.
+  - Monitoring (voir l'utilisation des clients)
+  - automatisation
+    - La sauvegarde est entièrement automatique et ne demande aucune intervention humain.
+- Support technique
+- Scalabilité
+- Documentation
