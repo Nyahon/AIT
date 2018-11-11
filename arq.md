@@ -56,7 +56,30 @@ Description et illustration de la configuration pour faire les backups vers AWS 
 
 
 
-- il est ensuite possible de restaurer les données en choisissant exactement de fichier dans une sauvegarde spécifique.
+### Restaurer un fichier
 
-  ![1541414610402](./img/1541414610402.png)
+- Il est ensuite possible de restaurer les données en choisissant exactement le fichier dans une sauvegarde spécifique.
 
+  ![1541970345788](/home/joel/Switchdrive/HEIG/S-5/AIT/Labos/presentation/img/1541970345788.png)
+
+
+
+- Fait ensuite un requête de restauration en cliquant sur restaurer.
+  Et un selectionne la destination de la restauration.
+
+  ![1541970442969](/home/joel/Switchdrive/HEIG/S-5/AIT/Labos/presentation/img/1541970442969.png)
+
+- On spécifie ensuite les informations pour la requêtes de restauration.
+  ![1541970508650](/home/joel/Switchdrive/HEIG/S-5/AIT/Labos/presentation/img/1541970508650.png)
+
+  En effet le plan de sauvegarde de Glacier spécifie que la restauration est facturée en fonction de la quantité de donnée transférée et de la vitesse demandée.
+
+  Il y trois option de restauration : 
+
+  - expedit : 1 – 5 minutes.
+
+   - standard : 3 – 5 hours.
+
+   - bulk : 5 – 12 hours.
+
+     Il y a plus de détails quand aux coûts dans la documentation amazon

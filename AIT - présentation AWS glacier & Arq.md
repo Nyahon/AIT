@@ -39,7 +39,7 @@ The data are stored in archive form and are contained in vaults. Vaults are acce
 
 ---
 
-###3. features
+### 3. features
 
 * *Range retrievals*
   * allow retrieval of a partial archive based on range given by the user.

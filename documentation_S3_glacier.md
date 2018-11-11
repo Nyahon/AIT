@@ -17,12 +17,12 @@
   - Activer MFA : 
   - Créer des utilisateurs IAM :
     - Ajouter un utilisateur
-    - ![1541412396340](/home/zutt/Documents/sync/Heig/AIT/AIT/img/1541411387806.png)
+    - ![1541412396340](./img/1541411387806.png)
     - Suivant
     - Créez un groupe, (par exemple : un groupe par département)
     - Nommez le groupe, vous pouvez aussi définir des stratégie de groupe, nous passons cela pour le moment.
     - Cliquez sur vérification
-    - ![1541412540189](/home/zutt/Documents/sync/Heig/AIT/AIT/img/2.png)
+    - ![1541412540189](./img/2.png)
     - Téléchargez le csv et envoyer le à l'utilisateur concerné.
 
 
@@ -44,7 +44,7 @@
   - Cliquez sur un de vos groupe:
     - Vous avez accès aux utilisateurs de votre groupe.
     - Vous avez accès aux autorisation du groupe, c'est ici que nous allons gérer les droits des utilisateurs du groupe.
-    - ![1541413311303](/home/zutt/Documents/sync/Heig/AIT/AIT/img/34.png)
+    - ![1541413311303](./img/34.png)
     - Vous avez accès à un visualisation d'accès pour vérifier votre configuration d'accès
 - Dans l'onglet Rôle
   - Vous pouvez configurer des rôles spécifique afin de mieux gérer l'accès à la partie administration de amazone S3/Glacier. Ceci n'est pas obligatoire si vous êtes le seul à gérer les backup de l'entreprise.
@@ -62,8 +62,8 @@
 
 - Aller sur https://s3.console.aws.amazon.com/s3/home?region=us-east-1
   - Vous pouvez voir les buckets créées par vos utilisateurs.
-  - ![1541414102602](/home/zutt/Documents/sync/Heig/AIT/AIT/img/75.png)
+  - ![1541414102602](./img/75.png)
   - En cliquant dessus vous pouvez effectuer des actions sur le bucket et voir son état :
   - Vous pouvez alors ajuster les configurations et la sécurité de de vos buckets.
-  - ![1541414232073](/home/zutt/Documents/sync/Heig/AIT/AIT/img/23.png)
+  - ![1541414232073](./img/23.png)
 
